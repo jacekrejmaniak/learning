@@ -1,0 +1,28 @@
+{
+  "name": "jr-learning",
+  "version": "0.1.0",
+  "description": "Learning JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "node src/index.js",
+    "pretest": "npm run build",
+    "test": "node test/basic.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacekrejmaniak/learning.git"
+  },
+  "keywords": [
+    "Learning",
+    "JavaScript"
+  ],
+  "author": "Jacek Rejmaniak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacekrejmaniak/learning/issues"
+  },
+  "homepage": "https://github.com/jacekrejmaniak/learning#readme",
+  "dependencies": {
+    "markdown": "^0.5.0"
+  }
+}
